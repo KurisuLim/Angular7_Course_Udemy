@@ -20,6 +20,19 @@ npm install -g @angular/cli@6.1.1
 ng help
 ```
 
+*Install Bootstrap Local*
+```
+npm install --save boostrap@3
+```
+
+*Installing Bootstrap at angular.json*
+```
+"styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+            ]
+```
+
 *Generating and serving an Angular project via a development server*
 ```
 ng new Project-Name
@@ -37,3 +50,9 @@ http://localhost:4200/
 This section explains how to set up Angular for the first time.
 Like setting up NPM Installs and CLI.
 It also gives you the Official  documentation: [https://github.com/angular/angular-cli/wiki]
+
+## Section 2 - The Basics
+
+This section talks about the behind the scene how the angular work.
+How Angular gets started and which building blocks it offers to help
+us build a basic Angular App.
