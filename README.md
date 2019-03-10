@@ -8,7 +8,29 @@ the material more.
 Other purpose of this repository is just in case I forgot something, I can always go back
 in this source code and read the code on what I learned.
 
-To Self for Mark Down Cheat Sheet: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]
+*To Self for Mark Down Cheat Sheet*: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]
+
+*Install Specific Version*
+```
+npm install -g @angular/cli@6.1.1
+```
+
+*Usage*
+```
+ng help
+```
+
+*Generating and serving an Angular project via a development server*
+```
+ng new Project-Name
+cd Project-Name
+ng serve
+```
+
+*Nagivate*
+```
+http://localhost:4200/
+```
 
 ## Section 1 - Getting Started
 
