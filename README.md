@@ -20,6 +20,18 @@ npm install -g @angular/cli@6.1.1
 ng help
 ```
 
+*Generating and serving an Angular project via a development server*
+```
+ng new Project-Name
+cd Project-Name
+ng serve
+```
+
+*Nagivate*
+```
+http://localhost:4200/
+```
+
 *Install Bootstrap Local*
 ```
 npm install --save boostrap@3
@@ -33,16 +45,14 @@ npm install --save boostrap@3
             ]
 ```
 
-*Generating and serving an Angular project via a development server*
+*Installing http*
 ```
-ng new Project-Name
-cd Project-Name
-ng serve
+npm o @angular/http
 ```
 
-*Nagivate*
+*Generating Components*
 ```
-http://localhost:4200/
+ng g c Component-Name
 ```
 
 ## Section 1 - Getting Started
