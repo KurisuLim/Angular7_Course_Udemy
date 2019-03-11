@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <h1 class='text-center'>{{alert2}}</h1>
+    <div class="button-container text-center">
+        <button class="btn btn-submit btn-lg mt-4 border-0 text-uppercase" (click)="warningAlert()">
+          Show/Hide</button>
+        </div>
+        <div *ngIf="!isHidden">
+            <div class="alert-warning text-center text-warning">Show Warning Alert</div>
+        </div>
+  </div>
+</div>

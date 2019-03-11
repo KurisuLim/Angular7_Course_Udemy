@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+      <h1 class='text-center'>{{alert1}}</h1>
+      <div class="button-container text-center">
+      <button class="btn btn-submit btn-lg mt-4 border-0 text-uppercase" (click)="sucessAlert()">
+        Show/Hide</button>
+      </div>
+      <div *ngIf="!isHidden">
+        <div class="alert-success text-center text-success">Show Success Alert</div>
+      </div>
+  </div>
+</div>
+

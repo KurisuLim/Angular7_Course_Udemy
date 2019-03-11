@@ -34,7 +34,7 @@ http://localhost:4200/
 
 *Install Bootstrap Local*
 ```
-npm install --save boostrap@3
+npm install bootstrap@3 --save
 ```
 
 *Installing Bootstrap at angular.json*
@@ -47,7 +47,7 @@ npm install --save boostrap@3
 
 *Installing http*
 ```
-npm o @angular/http
+npm i @angular/http
 ```
 
 *Generating Components*
